@@ -7,3 +7,6 @@ abstract interface class ApiService{
 }
 
 
+//implementação do either 
+//string endpoint (endpoint parcial)
+//{Map<String, dynamic>? queryParams}); == parametros opcionais

@@ -15,3 +15,6 @@ final class Right<L, R> extends Either<L, R> {
 
   R get value => _right;
 }
+
+
+//O either serve como um trhow e catch, basicamente o esquerdo sendo o lado que deu erro e o direito que deu certo

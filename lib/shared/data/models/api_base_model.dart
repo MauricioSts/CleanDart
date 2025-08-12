@@ -7,3 +7,5 @@ base class ApiBaseModel{
     required this.statusCode,
   });
 }
+
+//api onde esta sendo requerido a messagem (podendo ser nula) e o principal que é o status code

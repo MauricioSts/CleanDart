@@ -19,3 +19,5 @@ final class ApiException extends ApiBaseModel implements Exception{
   });
 
 }
+
+//aqui é a parte que deu errado da api, e os erros que ela vai rettornar
