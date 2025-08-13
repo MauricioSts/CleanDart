@@ -1,5 +1,5 @@
-base class ApiBaseModel{
-  final int statusCode;
+base class ApiBaseModel {
+  final int? statusCode;
   final String? message;
 
   const ApiBaseModel({
