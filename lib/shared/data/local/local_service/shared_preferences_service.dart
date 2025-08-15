@@ -27,6 +27,11 @@ final class SharedPreferencesService implements LocalService {
     }
   }
 
+  //esse trecho de codigo acima é a implementação concreta do LocalService no quesito de puxar os dados do localservice que foram salvos pelo set abaixo
+
+
+
+
   @override
   Future<Either<LocalException, void>> set<T>(String key, T data) async {
     try {
@@ -53,3 +58,4 @@ final class SharedPreferencesService implements LocalService {
     );
   }
 }
+//esse trecho de codigo salva os dados localmente 

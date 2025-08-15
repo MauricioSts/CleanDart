@@ -74,3 +74,6 @@ final class DioService implements ApiService {
     }
   }
 }
+
+
+//implementacao da api

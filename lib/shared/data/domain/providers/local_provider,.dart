@@ -5,3 +5,4 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 final localprovider = Provider<LocalService>(
   (ref) => SharedPreferencesService(),
 );
+//aqui ele vai providenciar um localservice e ajudar a criar e gerenciar ele.

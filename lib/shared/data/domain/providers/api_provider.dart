@@ -12,3 +12,4 @@ final apiProvider = Provider<ApiService>(
     )),
   ),
 );
+//nesse codigo serve para gerar uma futura instancia da api, caso alguem precisar de apiservice aqui esta a forma de criar e gerenciar essa instancia
