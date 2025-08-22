@@ -7,7 +7,7 @@ import 'package:cep_app/shared/ui/theme/data/repositories/theme_repository_impl.
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-final ThemeNotifierProvider = StateNotifierProvider<ThemeNotifier, ThemeState>(
+final themeNotifierProvider = StateNotifierProvider<ThemeNotifier, ThemeState>(
   (ref) {
     return ThemeNotifier(
       ThemeRepositoryImpl(
