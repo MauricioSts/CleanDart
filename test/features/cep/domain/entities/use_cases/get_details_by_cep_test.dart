@@ -1,5 +1,3 @@
-import 'package:cep_app/features/cep/domain/entities/cep_response.dart';
-import 'package:cep_app/features/cep/domain/entities/get_details_by_cep_body.dart';
 import 'package:cep_app/features/cep/domain/entities/use_cases/get_details_by_cep.dart';
 import 'package:cep_app/features/cep/domain/erros/cep_exception.dart';
 import 'package:cep_app/features/cep/domain/repositories/cep_repository.dart';
@@ -9,8 +7,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 
 import '../../../../../fixtures/cep_fixtures.dart';
-
-class MockCepRepository extends Mock implements CepRepository {}
+import '../../../../../fixtures/mock_cep_repository.dart';
 
 void main() {
   late CepRepository cepRepository;
